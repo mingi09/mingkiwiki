@@ -1,0 +1,29 @@
+p{
+    text-align: center;
+}
+
+
+button{
+    width: 600px;
+    height: 349px;
+    font-size: 100px;
+    color: white;
+}
+#b1:hover{
+    background-color: rgba(255, 0, 0, 0.517);
+    color: black;
+}
+#b2:hover{
+    background-color: rgba(0, 0, 255, 0.469);
+    color: black;
+}
+
+
+#b1{
+    background-color: red;
+}
+
+#b2{
+    background-color: blue;
+}
+

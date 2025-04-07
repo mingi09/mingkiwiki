@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>뿜
+  </title>
+</head>
+<body>
+  <select id="siteSelect">
+    <option value="">----</optio--n>
+    <option value="file:///C:/Users/%EA%B9%80%EB%AF%BC%EA%B8%B0/OneDrive/%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4/%EC%97%B0%EC%8A%B51/%EA%B9%80%EC%A7%84%EC%9A%B1.html">1</option>
+    <option value="file:///C:/Users/%EA%B9%80%EB%AF%BC%EA%B8%B0/OneDrive/%EB%B0%94%ED%83%95%20%ED%99%94%EB%A9%B4/%EC%97%B0%EC%8A%B51/%EC%9D%B4%EC%8A%B9%EC%A7%84.html">2</option>
+    
+  </select>
+
+  <button onclick="goToSelectedSite()">선택</button>
+
+  <script>
+    function goToSelectedSite() {
+      const selectedUrl = document.getElementById("siteSelect").value;
+
+      if (selectedUrl) {
+        window.location.href = selectedUrl;
+      } else {
+        alert("이동할 사이트를 선택하세요!");
+      }
+    }
+  </script>
+</body>
+</html>
